@@ -1,5 +1,5 @@
-# html-starter
+# html-Aliance
 
-Стартовый шаблон для верстки очередного проекта
+Aliance Production
 
 ### Автор: Лазюк Лена
