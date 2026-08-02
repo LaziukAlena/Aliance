@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 @font-face {
   font-family: "Bebas Neue";
   src: url("../fonts/BebasNeueBook.woff") format("woff");
@@ -84,11 +85,11 @@ body {
   display: inline-block;
   cursor: pointer;
 }
-.havbar-button {
+.navbar-button {
   flex-shrink: 0;
   height: 100%;
 }
-.seporator {
+.separator {
   width: 150px;
   height: 2px;
   background: #5c8ee5;
@@ -112,7 +113,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .header-features {
   display: flex;
