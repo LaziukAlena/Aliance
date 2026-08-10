@@ -31,7 +31,7 @@ body {
   width: 100%;
   left: 0;
   top: 0;
-  z-index: 2;
+  z-index: 3;
   border-bottom: 1px solid rgba(235, 235, 240, 0.2);
   transition:
     background-color 0.2s,
@@ -162,16 +162,16 @@ body {
 }
 .header-features {
   display: flex;
-  min-height: 10.5rem;
+  align-items: stretch;
   padding: 0;
-  margin-top: 100px;
+  margin-top: 6.25rem;
   list-style: none;
   color: #fff;
   position: relative;
 }
 .header-features-item {
   width: 18rem;
-  min-height: 100%;
+  height: auto;
   padding: 1.75rem 3.125rem;
   border: 1px solid rgba(235, 235, 240, 0.2);
 }
@@ -330,6 +330,9 @@ body {
   }
   .navbar {
     height: 5rem;
+  }
+  .header {
+    padding-top: 5rem;
   }
   .navbar-button {
     padding-left: 2rem;

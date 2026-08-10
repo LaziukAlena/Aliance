@@ -23,16 +23,18 @@ const openMenu = (event) => {
   lightModeOn();
 };
 
+const syncNavbarMode = () => {
+  window.scrollY > 1 ? lightModeOn() : lightModeOff();
+};
+
 const closeMenu = (event) => {
   menu.classList.remove("is-open");
   mMenuToggle.classList.remove("close-menu");
   document.body.style.overflow = "";
-  lightModeOff();
+  syncNavbarMode();
 };
 
-window.addEventListener("scroll", () => {
-  this.scrollY > 1 ? lightModeOn() : lightModeOff();
-});
+window.addEventListener("scroll", syncNavbarMode);
 
 mMenuToggle.addEventListener("click", (event) => {
   event.preventDefault();
@@ -41,7 +43,7 @@ mMenuToggle.addEventListener("click", (event) => {
 
 const swiper = new Swiper(".features-slider", {
   speed: 400,
-  autoHeight: true,
+
   slidesPerView: 1,
   navigation: {
     nextEl: ".slider-button-next",
