@@ -156,7 +156,7 @@ body {
   display: none;
 }
 .separator {
-  width: 9.375rem;
+  width: 6.25rem;
   height: 2px;
   background: #5c8ee6;
 }
@@ -215,6 +215,7 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  padding: 10px;
 }
 
 .header-features-text {
@@ -240,6 +241,7 @@ body {
   display: flex;
   list-style: none;
   padding: 0;
+  margin: 0;
   gap: 1.875rem;
 }
 .steps-item {
@@ -277,7 +279,6 @@ body {
   color: #828a99;
   margin-top: 0.625rem;
   margin-bottom: 1.25rem;
-  max-width: 18.75rem;
 }
 .steps-link {
   display: flex;
@@ -440,6 +441,7 @@ body {
 
   .slider-buttons {
     display: flex;
+    height: 43px;
   }
   .steps-buttons {
     display: flex;
@@ -448,7 +450,7 @@ body {
     display: none;
   }
   .navbar {
-    height: 5rem;
+    height: 5.8rem;
   }
   .header {
     padding-top: 5rem;
@@ -460,8 +462,7 @@ body {
   .card {
     flex-basis: 50%;
   }
-
-  .brands-cards {
+  .brand-card {
     flex-direction: column;
   }
 }
@@ -480,13 +481,20 @@ body {
     flex-grow: 1;
     justify-content: center;
   }
+  .logo-svg {
+    max-width: 10rem;
+  }
+  .navbar-button {
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
+  }
   .mobile-menu-toggle {
-    width: 5rem;
+    width: 6.7rem;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1.8rem;
+    padding: 2.3rem 2.5rem;
     border-right: 1px solid rgba(235, 235, 240, 0.2);
   }
   .navbar-light .mobile-menu-line {
@@ -588,41 +596,139 @@ body {
     display: none;
   }
   .close-menu .mobile-menu-line:nth-child(1) {
-    transform: rotate(45deg) translateY(9px);
+    transform: rotate(45deg) translateY(8px);
   }
   .close-menu .mobile-menu-line:nth-child(3) {
-    transform: rotate(-45deg) translateY(-10px);
+    transform: rotate(-45deg) translateY(-9px);
   }
 }
 @media (max-width: 768px) {
   .container {
     max-width: 40rem;
   }
-
-  .container-section {
-    max-width: 35rem;
+  .button {
+    font-size: 14px;
   }
+  .separator {
+    width: 8rem;
+  }
+
   .header-title {
-    font-size: 4rem;
+    font-size: 3.9rem;
+  }
+  .header-text {
+    font-size: 14px;
+    margin-bottom: 25px;
   }
   .header-content {
-    padding-top: 3rem;
+    padding-top: 4.8rem;
+  }
+  .header-button {
+    width: 100%;
+    height: 100%;
   }
   .card {
     flex-basis: 100%;
   }
+  .brands-cards {
+    flex-direction: column;
+  }
 }
 @media (max-width: 576px) {
   .container {
-    max-width: 90%;
+    max-width: 92%;
   }
-  .container-section {
-    max-width: 90%;
+
+  .separator {
+    margin-bottom: 20px;
   }
   .header-title {
-    font-size: 2rem;
+    margin-top: 0;
   }
-  .header-content {
-    padding-top: 3rem;
+  .header-text {
+    text-align: left;
+  }
+
+  .header-button {
+    padding: 1.625rem 3.75rem;
+  }
+
+  .header-features {
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+  .header-features-text {
+    font-size: 1.2rem;
+  }
+
+  .header-features-item {
+    padding: 23px 30px 40px 30px;
+  }
+
+  .slider-buttons {
+    margin-top: 0px;
+  }
+  .slider-button-prev,
+  .slider-button-next {
+    border: none;
+    border-top: 1px solid rgba(235, 235, 240, 0.2);
+  }
+  .slider-button-prev {
+    border-right: 1px solid rgba(235, 235, 240, 0.2);
+  }
+  .section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .section-title {
+    font-size: 36px;
+    line-height: 120%;
+    margin-bottom: 30px;
+  }
+  .steps {
+    gap: 30px;
+  }
+  .steps-item {
+    max-width: 300px;
+  }
+  .steps-num {
+    font-size: 48px;
+  }
+  .steps-num::after {
+    margin-left: 33px;
+  }
+  .steps-title {
+    margin-top: 10px;
+  }
+  .steps-link {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .steps-link::before {
+    width: 40px;
+    margin-right: 20px;
+  }
+  .steps-text {
+    font-size: 14px;
+  }
+  .steps-buttons {
+    height: 40px;
+    margin-top: 17px;
+  }
+  .card-content {
+    padding: 20px 31px 0px;
+  }
+  .card-title {
+    font-size: 20px;
+    line-height: 130%;
+    margin-bottom: 10px;
+  }
+  .card-text {
+    font-size: 14px;
+    line-height: 160%;
+    margin-bottom: 302px;
+  }
+  .card-image {
+    width: 100%;
   }
 }
