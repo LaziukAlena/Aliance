@@ -171,10 +171,10 @@
         </div>
       </div>
     </footer>
-    <div class="modal">
+    <div class="modal" id="feedback-modal">
       <div class="modal-dialog">
         <h2 class="modal-title">Есть вопросы?</h2>
-        <a href="#" class="modal-close" data-toggle="modal">
+        <a href="#" class="modal-close" data-toggle="modal" data-target="#feedback-modal">
           <svg class="close-icon" width="24" height="24">
             <use href="img/sprite.svg#close"></use>
           </svg>
@@ -223,13 +223,14 @@
                   конфиденциальность информации!
                 </p>
               </div>
+            </div>
         </form>
       </div>
     </div>
 
-    <div class="modal modal-thanks">
+    <div class="modal modal-thanks" id="alert-modal">
       <div class="modal-dialog modal-dialog-thanks">
-        <a href="#" class="modal-close" data-toggle="modal">
+        <a href="#" class="modal-close" data-toggle="modal" data-target="#alert-modal">
           <svg class="close-icon" width="24" height="24">
             <use href="img/sprite.svg#close"></use>
           </svg>
@@ -240,9 +241,11 @@
           Наш менеджер свяжется с&nbsp;Вами в&nbsp;ближайшее время ответит на&nbsp;все интересующие вопросы и&nbsp;поможем даже в&nbsp;самых сложных случаях!
         </p>
         <div class="modal-form-footer">
-          <button type="submit" class="button modal-form-button">
+          
+          <a href="index.php" class="button modal-form-button">
             Вернуться на главную
-          </button>
+          </a>
+          
         </div>
       </div>
     </div>
