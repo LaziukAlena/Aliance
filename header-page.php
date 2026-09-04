@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Aliance Production</title>
+    <title><?php echo $page_title?> - Aliance Production</title>
   </head>
-  <body class="front-page">
+  <body>
     <div class="mobile-menu">
       <ul class="mobile-menu-nav">
         <li class="mobile-menu-nav-item">
@@ -24,26 +24,26 @@
           <a href="./contracts.php" class="mobile-menu-link">Контрактное производство</a>
           <ul class="mobile-submenu">
             <li class="mobile-submenu-item">
-              <a href="./avtohim.php" class="mobile-submenu-link">Автомобильная химия</a>
+              <a href="#" class="mobile-submenu-link">Автомобильная химия</a>
             </li>
             <li class="mobile-submenu-item">
-              <a href="./404.php" class="mobile-submenu-link">Бытовая химия</a>
+              <a href="#" class="mobile-submenu-link">Бытовая химия</a>
             </li>
             <li class="mobile-submenu-item">
-              <a href="./404.php" class="mobile-submenu-link"
+              <a href="#" class="mobile-submenu-link"
                 >Дезинфицирующие средства</a
               >
             </li>
             <li class="mobile-submenu-item">
-              <a href="./404.php" class="mobile-submenu-link">Пищевые аэрозоли</a>
+              <a href="#" class="mobile-submenu-link">Пищевые аэрозоли</a>
             </li>
             <li class="mobile-submenu-item">
-              <a href="./404.php" class="mobile-submenu-link"
+              <a href="#" class="mobile-submenu-link"
                 >Косметическая продукция</a
               >
             </li>
             <li class="mobile-submenu-item">
-              <a href="./404.php" class="mobile-submenu-link">Краски аэрозольные</a>
+              <a href="#" class="mobile-submenu-link">Краски аэрозольные</a>
             </li>
           </ul>
         </li>
@@ -87,7 +87,7 @@
         </a>
       </div>
     </div>
-    <nav class="navbar">
+    <nav class="navbar navbar-light">
       <a href="#" class="mobile-menu-toggle">
         <div class="mobile-menu-line"></div>
         <div class="mobile-menu-line"></div>
@@ -133,38 +133,6 @@
         <span class="button-text">Получить консультацию</span>
       </button>
     </nav>
-    <header class="header header-image">
-      <div class="container">
-        <div class="header-content">
-          <div class="separator"></div>
-          <h1 class="header-title">
-            <?php echo "Комплексное обеспечение товарами и&nbsp;расходными материалами
-            бизнеса"; ?>
-            
-          </h1>
-          <p class="header-text">
-            Высокий уровень вовлечения представителей целевой аудитории является
-            четким доказательством простого факта:высококачественный прототип
-            будущего проекта напрямую зависит от&nbsp;анализа существующих
-            паттернов поведения.
-          </p>
-          <button class="button header-button" data-toggle="modal" data-target="#feedback-modal">Подробнее о компании</button>
-        </div>
 
-        <?php include_once("./template-parts/features-slider-block.php"); ?>
-      </div>
-    </header>
-    <?php include_once("./template-parts/steps-block.php"); ?>
-    <?php $block_title = "Контрактное производство"; include_once("./template-parts/cards-block.php"); ?>
-    <?php $block_title = "Собственные торговые марки"; include_once("./template-parts/trademarks-block.php")?>
     
-    <?php include_once("./template-parts/founder-block.php"); ?>
-    <?php include_once("./template-parts/clients-block.php"); ?>
-    <?php include_once("./template-parts/blog-block.php"); ?>
-  
-   
-  
-    
-    
-    <?php include_once('footer.php');?>
-
+     

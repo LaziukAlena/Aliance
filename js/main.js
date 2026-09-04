@@ -109,6 +109,19 @@ const swiperBlog = new Swiper(".blog-slider", {
   },
 });
 
+const researchSwiper = new Swiper(".research-slider", {
+  speed: 400,
+  slidesPerView: "auto",
+  spaceBetween: 30,
+  loop: true,
+  centeredSlides: false,
+
+  navigation: {
+    nextEl: ".research-button-next",
+    prevEl: ".research-button-prev",
+  },
+});
+
 let currentModal;
 let modalDialog;
 let alertModal = document.querySelector("#alert-modal");
