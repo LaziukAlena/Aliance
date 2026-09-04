@@ -140,7 +140,6 @@
           <h1 class="header-title">
             <?php echo "Комплексное обеспечение товарами и&nbsp;расходными материалами
             бизнеса"; ?>
-            
           </h1>
           <p class="header-text">
             Высокий уровень вовлечения представителей целевой аудитории является
@@ -150,21 +149,14 @@
           </p>
           <button class="button header-button" data-toggle="modal" data-target="#feedback-modal">Подробнее о компании</button>
         </div>
-
         <?php include_once("./template-parts/features-slider-block.php"); ?>
       </div>
     </header>
     <?php include_once("./template-parts/steps-block.php"); ?>
     <?php $block_title = "Контрактное производство"; include_once("./template-parts/cards-block.php"); ?>
     <?php $block_title = "Собственные торговые марки"; include_once("./template-parts/trademarks-block.php")?>
-    
     <?php include_once("./template-parts/founder-block.php"); ?>
     <?php include_once("./template-parts/clients-block.php"); ?>
     <?php include_once("./template-parts/blog-block.php"); ?>
-  
-   
-  
-    
-    
     <?php include_once('footer.php');?>
 

@@ -1,7 +1,11 @@
 <section class="section intro">
   <div class="container">
     <div class="intro-wrapper">
-      <img src="img/intro-logo.png" alt="intro-log" class="intro-logo" /> 
+      <picture class="intro-logo">
+        <source type="image/webp" srcset="img/intro-logo.webp">
+        <source type="image/jpg" srcset="img/intro-logo.png">
+        <img src="img/intro-logo.png" alt="Логотип интро" loading="lazy">
+      </picture>
       <div class="intro-content">
         <div class="separator"></div>
         <h2 class="section-title intro-title">

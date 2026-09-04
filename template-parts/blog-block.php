@@ -7,7 +7,11 @@
         <div class="swiper blog-slider">
           <div class="swiper-wrapper">
             <a href="#" class="swiper-slide blog-card">
-              <img src="img/blog-photo2.jpg" alt="" class="blog-card-image" />
+              <picture class="blog-card-image">
+                <source type="image/webp" srcset="img/blog-photo2.webp">
+                <source type="image/jpg" srcset="img/blog-photo2.jpg">
+                <img src="img/blog-photo2.jpg" alt="blog-photo2" loading="lazy">
+              </picture>
               <h3 class="blog-card-title">
                 Современная методология разработки одухотворила всех причастных
               </h3>
@@ -18,7 +22,12 @@
               </p>
             </a>
             <a href="#" class="swiper-slide blog-card">
-              <img src="img/blog-photo.jpg" alt="" class="blog-card-image" />
+              <picture class="blog-card-image">
+                <source type="image/webp" srcset="img/blog-photo.webp">
+                <source type="image/jpg" srcset="img/blog-photo.jpg">
+                <img src="img/blog-photo.jpg" alt="blog-photo" loading="lazy">
+              </picture>
+
               <h3 class="blog-card-title">
                 Сложно сказать, почему жизнь прекрасна
               </h3>
@@ -29,7 +38,11 @@
               </p>
             </a>
             <a href="#" class="swiper-slide blog-card">
-              <img src="img/blog-photo2.jpg" alt="" class="blog-card-image" />
+              <picture class="blog-card-image">
+                <source type="image/webp" srcset="img/blog-photo2.webp">
+                <source type="image/jpg" srcset="img/blog-photo2.jpg">
+                <img src="img/blog-photo2.jpg" alt="blog-photo2" loading="lazy">
+              </picture>
               <h3 class="blog-card-title">
                 Современная методология разработки одухотворила всех причастных
               </h3>

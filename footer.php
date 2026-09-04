@@ -1,6 +1,10 @@
     <section class="cta">
       <div class="bg-grey section-cta">
-        <img src="img/cta.png" alt="call to action" class="cta-image" />
+        <picture class="cta-image">
+          <source type="image/webp" srcset="img/cta.webp">
+          <source type="image/jpg" srcset="img/cta.png">
+          <img src="img/cta.png" alt="call to action" loading="lazy">
+        </picture>
         <div class="cta-form-wrapper container">
           <form action="handler.php" method="POST" class="cta-form">
             <h2 class="section-title cta-form-title">Хотите сотрудничать?</h2>
@@ -201,7 +205,6 @@
         </form>
       </div>
     </div>
-
     <div class="modal modal-thanks" id="alert-modal">
       <div class="modal-dialog modal-dialog-thanks">
         <a href="#" class="modal-close" data-toggle="modal" data-target="#alert-modal">
@@ -209,21 +212,22 @@
             <use href="img/sprite.svg#close"></use>
           </svg>
         </a>
-        <img src="img/thanks.png" alt="thanks" class="modal-thanks-image" />
+        <picture class="modal-thanks-image">
+          <source type="image/webp" srcset="img/thanks.webp">
+          <source type="image/jpg" srcset="img/thanks.png">
+          <img src="img/thanks.png" alt="thanks" loading="lazy">
+        </picture>
         <h2 class="modal-title">Спасибо за заявку!</h2>
         <p class="modal-text">
           Наш менеджер свяжется с&nbsp;Вами в&nbsp;ближайшее время ответит на&nbsp;все интересующие вопросы и&nbsp;поможем даже в&nbsp;самых сложных случаях!
         </p>
         <div class="modal-form-footer">
-          
           <a href="index.php" class="button modal-form-button">
             Вернуться на главную
-          </a>
-          
+          </a>         
         </div>
       </div>
     </div>
-
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/just-validate.production.min.js"></script>
     <script src="js/main.js"></script>
