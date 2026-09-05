@@ -16,4 +16,7 @@ include_once('./template-parts/breadcrumbs-block.php');
   </div>
 </section>
 
-<?php include_once('footer.php'); ?>
+<?php
+$hide_cta = true;
+include_once('footer.php');
+?>

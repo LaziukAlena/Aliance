@@ -1,10 +1,10 @@
 <section class="section intro">
   <div class="container">
     <div class="intro-wrapper">
-      <picture class="intro-logo">
+      <picture>
         <source type="image/webp" srcset="img/intro-logo.webp">
         <source type="image/jpg" srcset="img/intro-logo.png">
-        <img src="img/intro-logo.png" alt="Логотип интро" loading="lazy">
+        <img src="img/intro-logo.png" alt="Логотип интро" class="intro-logo" loading="lazy">
       </picture>
       <div class="intro-content">
         <div class="separator"></div>

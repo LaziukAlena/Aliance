@@ -7,10 +7,10 @@
         <div class="swiper blog-slider">
           <div class="swiper-wrapper">
             <a href="#" class="swiper-slide blog-card">
-              <picture class="blog-card-image">
+              <picture>
                 <source type="image/webp" srcset="img/blog-photo2.webp">
                 <source type="image/jpg" srcset="img/blog-photo2.jpg">
-                <img src="img/blog-photo2.jpg" alt="blog-photo2" loading="lazy">
+                <img src="img/blog-photo2.jpg" alt="blog-photo2" loading="lazy" class="blog-card-image">
               </picture>
               <h3 class="blog-card-title">
                 Современная методология разработки одухотворила всех причастных
@@ -22,10 +22,10 @@
               </p>
             </a>
             <a href="#" class="swiper-slide blog-card">
-              <picture class="blog-card-image">
+              <picture>
                 <source type="image/webp" srcset="img/blog-photo.webp">
                 <source type="image/jpg" srcset="img/blog-photo.jpg">
-                <img src="img/blog-photo.jpg" alt="blog-photo" loading="lazy">
+                <img src="img/blog-photo.jpg" alt="blog-photo" class="blog-card-image" loading="lazy">
               </picture>
 
               <h3 class="blog-card-title">
@@ -38,10 +38,10 @@
               </p>
             </a>
             <a href="#" class="swiper-slide blog-card">
-              <picture class="blog-card-image">
+              <picture>
                 <source type="image/webp" srcset="img/blog-photo2.webp">
                 <source type="image/jpg" srcset="img/blog-photo2.jpg">
-                <img src="img/blog-photo2.jpg" alt="blog-photo2" loading="lazy">
+                <img src="img/blog-photo2.jpg" alt="blog-photo2" class="blog-card-image" loading="lazy">
               </picture>
               <h3 class="blog-card-title">
                 Современная методология разработки одухотворила всех причастных

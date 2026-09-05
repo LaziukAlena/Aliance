@@ -1,9 +1,10 @@
+<?php if (empty($hide_cta)): ?>
     <section class="cta">
       <div class="bg-grey section-cta">
-        <picture class="cta-image">
+        <picture>
           <source type="image/webp" srcset="img/cta.webp">
           <source type="image/jpg" srcset="img/cta.png">
-          <img src="img/cta.png" alt="call to action" loading="lazy">
+          <img src="img/cta.png" alt="call to action" class="cta-image" loading="lazy">
         </picture>
         <div class="cta-form-wrapper container">
           <form action="handler.php" method="POST" class="cta-form">
@@ -60,6 +61,8 @@
         </div>
       </div>
     </section>
+<?php endif; ?>
+    </main>
     <footer class="footer">
       <div class="container">
         <div class="footer-top">
@@ -71,7 +74,7 @@
           <?php include_once('./template-parts/contact-info-block.php'); ?>
         </div>
       </div>
-      <hr color="#ebebf0" class="footer-seporator" />
+      <hr color="#ebebf0" class="footer-separator" />
       <div class="container">
         <div class="footer-bottom">
           <div class="footer-menu-wrapper">
@@ -131,7 +134,7 @@
           </div>
         </div>
       </div>
-      <hr color="#ebebf0" class="footer-seporator" />
+      <hr color="#ebebf0" class="footer-separator" />
       <div class="container">
         <div class="footer-wrapper">
           <div class="footer-legal">
@@ -212,10 +215,10 @@
             <use href="img/sprite.svg#close"></use>
           </svg>
         </a>
-        <picture class="modal-thanks-image">
+        <picture>
           <source type="image/webp" srcset="img/thanks.webp">
           <source type="image/jpg" srcset="img/thanks.png">
-          <img src="img/thanks.png" alt="thanks" loading="lazy">
+          <img src="img/thanks.webp" alt="thanks" class="modal-thanks-image" loading="lazy" width="360" height="310">
         </picture>
         <h2 class="modal-title">Спасибо за заявку!</h2>
         <p class="modal-text">
@@ -228,8 +231,8 @@
         </div>
       </div>
     </div>
-    <script src="js/swiper-bundle.min.js"></script>
-    <script src="js/just-validate.production.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/swiper-bundle.min.js" defer></script>
+    <script src="js/just-validate.production.min.js" defer></script>
+    <script src="js/main.js" defer></script>
   </body>
 </html>

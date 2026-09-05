@@ -11,31 +11,31 @@
   <div class="swiper research-slider">
     <div class="swiper-wrapper">
       <div class="swiper-slide research-slide">
-        <picture class="blog-card-image">
+        <picture>
           <source type="image/webp" srcset="img/blog-photo2.webp">
           <source type="image/jpg" srcset="img/blog-photo2.jpg">
-          <img src="img/blog-photo2.jpg" alt="блог фото2" loading="lazy">
+          <img src="img/blog-photo2.jpg" alt="блог фото2" class="blog-card-image" loading="lazy">
         </picture>
       </div>
       <div class="swiper-slide research-slide">
-        <picture class="blog-card-image">
+        <picture>
           <source type="image/webp" srcset="img/blog-photo.webp">
           <source type="image/jpg" srcset="img/blog-photo.jpg">
-          <img src="img/blog-photo.jpg" alt="блог фото" loading="lazy">
+          <img src="img/blog-photo.jpg" alt="блог фото" class="blog-card-image" loading="lazy">
         </picture>
       </div>
       <div class="swiper-slide research-slide">
-        <picture class="blog-card-image">
+        <picture>
           <source type="image/webp" srcset="img/blog-photo2.webp">
           <source type="image/jpg" srcset="img/blog-photo2.jpg">
-          <img src="img/blog-photo2.jpg" alt="блог фото2" loading="lazy">
+          <img src="img/blog-photo2.jpg" alt="блог фото2" class="blog-card-image" loading="lazy">
         </picture>
       </div>
       <div class="swiper-slide research-slide">
-        <picture class="blog-card-image">
+        <picture>
           <source type="image/webp" srcset="img/blog-photo.webp">
           <source type="image/jpg" srcset="img/blog-photo.jpg">
-          <img src="img/blog-photo.jpg" alt="блог фото" loading="lazy">
+          <img src="img/blog-photo.jpg" alt="блог фото" class="blog-card-image" loading="lazy">
         </picture>
       </div>
     </div>

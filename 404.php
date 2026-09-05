@@ -14,4 +14,7 @@ include_once('header-page.php');
   </div>
 </section>
 
-<?php include_once('footer.php'); ?>
+<?php
+$hide_cta = true;
+include_once('footer.php');
+?>
